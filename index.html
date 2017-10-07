@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test LDAP Connection</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <div>
+                <h4>Test Connessione server LDAP locale</h4>
+                <form method="POST" action="login.php">
+
+                    <p>Username:</p>
+                    <input type="text" name="username">
+
+                    <p>Password:</p>
+                    <input type="password" name="password">
+
+                    <br><br>
+                    <input type="submit" name="submit" value="Login">
+
+                </form>
+            </div>
+
+            <br>
+
+            <div>
+                <form method="POST" action="logout.php">
+                    <input type="submit" name="submit" value="Logout">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
