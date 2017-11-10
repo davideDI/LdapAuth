@@ -1,12 +1,11 @@
 <?php
 
-define('MYAPPNAME', "Davide_De_Innocentis");
+
 
 /* Start Output Buffer */
 ob_start();
 
 /* Start PHP Session */
-$ldap_dummy = session_name(MYAPPNAME);
 session_start();
 
 require_once('config.php');
@@ -242,7 +241,6 @@ try {
 		// destroy the session 
 		session_destroy();
 		$_SESSION = array();
-		$ldap_dummy = session_name(MYAPPNAME);
 		session_start();
 		session_regenerate_id();
 		$_SESSION['loggedin'] = false;
