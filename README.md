@@ -26,8 +26,10 @@ Passi dell'installazione:
 
 Nella cartella OpenLdap appena creata modificare il file slapd.conf per importare eventuali nuovi schema o impostare la password dell'admin.
 
-Dato che il database selezionato è di tipo **ldif*** bisogna effettuare il caricamento delle **entry**.
+Dato che il database selezionato è di tipo **ldif** bisogna effettuare il caricamento delle **entry**.
 
 *ldapmodify.exe -a -x -h localhost -p 389 -D "cn=admin,dc=test,dc=univaq,dc=it" -f C:\OpenLDAP\ldifdata\test.ldif -w secret*
 
-Dove nel file _test.ldif_ saranno indicate le entry.
+dove nel file _test.ldif_ saranno indicate le entry.
+
+**N.B. una volta effettuata l'installazione di OpenLdap riavviare il pc, per rendere effettiva l'installazione.**
