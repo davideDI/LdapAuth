@@ -36,4 +36,4 @@ dove nel file _test.ldif_ saranno indicate le entry.
 
 **N.B. per Ubuntu consultare la seguente guida [Ldap Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-openldap-and-phpldapadmin-on-ubuntu-16-04).**
 
-**N.B. per Windows 10, per poter effettuare il collegamento al server Ldap locale eseguire il comando run.cmd nella cartella .\OpenLdap\run\**
+**N.B. per Windows 10, per poter effettuare il collegamento al server Ldap locale eseguire il comando run.cmd nella cartella .\OpenLdap\run\\**
